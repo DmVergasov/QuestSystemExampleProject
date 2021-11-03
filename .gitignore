@@ -49,8 +49,13 @@ SourceArt/**/*.tga
 Binaries/*
 Plugins/*/Binaries/*
 
+Plugins/Developer/*
+
 # Builds
 Build/*
+
+# Rider
+.idea/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
