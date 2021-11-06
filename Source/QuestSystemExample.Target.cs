@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright Dmitriy Vergasov All Rights Reserved.
 
 using UnrealBuildTool;
 using System.Collections.Generic;
@@ -9,6 +9,7 @@ public class QuestSystemExampleTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
+		bUseUnityBuild = false;
 
 		ExtraModuleNames.AddRange( new string[] { "QuestSystemExample" } );
 	}
